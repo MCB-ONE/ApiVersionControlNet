@@ -14,7 +14,6 @@ namespace ApiVersionControlNet.Controllers.V2
     {
 
         private const string ApiTestURL = "https://fakestoreapi.com/products";
-        private const string AppID = "632c4c99a19b17bd06410e30";
         private readonly HttpClient _httpClient;
 
         public ProductsController(HttpClient httpClient)
